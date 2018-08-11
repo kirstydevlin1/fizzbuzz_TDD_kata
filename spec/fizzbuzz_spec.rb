@@ -16,5 +16,9 @@ describe 'fizzbuzz' do
   it 'returns "buzz" when given the number 5' do
     expect(fizzbuzz(5)).to eq("buzz")
   end
+
+  it 'returns "buzz when given a multiple of 5' do
+    expect(fizzbuzz(50)).to eq("buzz")
+  end
     
 end
